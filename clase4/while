@@ -1,0 +1,15 @@
+import * as readlineSync from "readline-sync";
+
+let suma, nota, promedio, contador : number;
+
+contador = 1;
+suma = 0;
+
+for (contador = 0; contador < 10; contador++) {
+    nota = readlineSync.questionInt("Ingrese la nota: " + contador + ": ");
+    suma += nota;
+}
+
+promedio = suma / contador;
+
+console.log("El promedio es de:", promedio);

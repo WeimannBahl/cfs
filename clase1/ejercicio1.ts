@@ -1,0 +1,13 @@
+console.log("Ingredientes:");
+console.log("Dos tazas y media de harina leudante.");
+console.log("Tres cuartos de una taza de azúcar.");
+console.log("Media taza de cacao.");
+console.log("Dos huevos");
+console.log("Media taza de aceite");
+console.log("Una taza de agua");
+console.log("Instrucciones:");
+console.log("Poner en un bowl los ingredientes secos y mezclar.");
+console.log("Hacer un hueco en el centro e introducir los huevos, aceite y agua.");
+console.log("Unir todo y batir enérgicamente para que se airee la mezcla.");
+console.log("Vertir la mezcla sobre un molde enharinado.");
+console.log("Hornear a fuego medio durante una hora.");
