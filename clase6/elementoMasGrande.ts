@@ -1,7 +1,8 @@
 let arregloNumeros: number[] = [4, 7, 9, 3, 1, 45, 67, 23, 29, 78, 11, 16];
 let numeroMasGrande: number = arregloNumeros[0];
+let largo: number = arregloNumeros.length;
 
-for (let i : number = 0; i < 12; i++) {
+for (let i : number = 0; i < largo; i++) {
     if (numeroMasGrande < arregloNumeros[i]){
         numeroMasGrande = arregloNumeros[i]
     }
